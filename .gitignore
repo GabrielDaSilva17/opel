@@ -1,0 +1,45 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variáveis de ambiente e credenciais (NUNCA envie para o GitHub)
+.env
+.env.local
+.env.*.local
+
+# Banco de dados e arquivos locais de dados
+*.db
+*.sqlite3
+relatorios.db
+dados_relatorio.json
+config.json
+
+# Diretórios de build e executáveis
+build/
+dist/
+*.spec
+*.exe
+
+# Pastas de cópias locais e arquivos temporários do Office
+copias/
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Logs
+*.log
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.cursor/
